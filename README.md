@@ -1,8 +1,3 @@
- ~~~
- This is a coding example working on IRIS 2020.2 and on Caché 2018.1.3 
- It will not be kept in sync with new versions      
- It is also NOT serviced by InterSystems Support !   
-~~~ 
 Running a Background Job using JOB command is a well known feature.  
 Using ECP to distribute databases to several servers is also well know.  
 But using the combination of both to run a process on a different server  
