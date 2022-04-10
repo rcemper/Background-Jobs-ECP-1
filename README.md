@@ -38,4 +38,12 @@ Edit namespace parameers and run test^ECP.job to see it moving.
 For ease of use both the client and the server code are homed together.  
 Not a requirement, just for comfort.
 
-[Article in DC](https://community.intersystems.com/post/background-jobs-over-ecp)
+[Article in DC](https://community.intersystems.com/post/background-jobs-over-ecp)   
+
+[Demo Server SMP](https://ecp-job.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://ecp-job.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality**   
+<img width="85%" src="
+https://openexchange.intersystems.com/mp/img/packages/671/screenshots/4bh7tyapellnv0cjgw34riapcfo.jpg
+">
