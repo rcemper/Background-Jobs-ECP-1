@@ -13,7 +13,7 @@ services:
     volumes:
       - ./:/irisdev/app
  
- ECPclient:
+  ecpclient:
     build: 
       context: .
       dockerfile: Dockerfile
