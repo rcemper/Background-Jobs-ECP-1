@@ -7,7 +7,7 @@ services:
     command: --check-caps false  --ISCAgent false
     restart: always
     ports: 
-      - 51772:1972
+      - 51773:1972
       - 52773:52772
       - 53773
     volumes:
@@ -20,7 +20,7 @@ services:
     command: --check-caps false  --ISCAgent false
     restart: always
     ports: 
-      - 41772:1972
+      - 41773:1972
       - 42773:52772
       - 53773
     volumes:
