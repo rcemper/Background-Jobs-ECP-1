@@ -1,7 +1,9 @@
 ARG IMAGE=intersystemsdc/iris-community:latest
+ARG IMAGE=containers.intersystems.com/intersystems/iris:2022.1.0.209.0
 FROM $IMAGE
 
 USER root
+COPY  ECP_iris.key /usr/irissys/mgr/iris.key
 
 WORKDIR /opt/irisapp
 RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisapp
