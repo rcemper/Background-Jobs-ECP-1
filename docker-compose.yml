@@ -12,3 +12,16 @@ services:
       - 53773
     volumes:
       - ./:/irisdev/app
+ 
+ ECPclient:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    command: --check-caps false  --ISCAgent false
+    restart: always
+    ports: 
+      - 41772:1972
+      - 42773:52772
+      - 53773
+    volumes:
+      - ./:/irisdev/app
