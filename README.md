@@ -40,8 +40,3 @@ Not a requirement, just for comfort.
 
 [Article in DC](https://community.intersystems.com/post/background-jobs-over-ecp)   
 
-[Demo Server SMP](https://ecp-job.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebTerminal](https://ecp-job.demo.community.intersystems.com/terminal/)    
-        
-**Code Quality**   
-<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1762/screenshots/czizcdreyxk9razsiyns8asbufi.jpg">
