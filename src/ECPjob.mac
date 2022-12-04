@@ -11,7 +11,7 @@ ECPjob  ;;; Init and execute remote ECP Job Start over ECP
 #; requires  Namespace that is fully remote over ECP
 #;
 init(&param) Public {
-    JOB server^ECP.job|$$$eSPACE| set zc=$zc
+    JOB server^ECPjob|$$$eSPACE| set zc=$zc
     if 'zc Write "Job start failed",!  quit $TEST
     quit $$loadparams(zc,.param)
 }
