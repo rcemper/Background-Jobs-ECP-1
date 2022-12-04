@@ -11,7 +11,7 @@ The example starts a remote process and receives back a result.
 The parameters sent and received are pure demo purpose and require  
 adaption to the individual needs.  
  
-All you need is a namespace with its data mapped on an ECP server.  
+All you need is a namespace with its data mapped on an ECP server.
  
 As the technique used is an elementary design. It works the same way  
 also from one namespace to the other. Eg. From SAMPLES to USER or reverse.  
@@ -38,5 +38,7 @@ Edit namespace parameers and run test^ECP.job to see it moving.
 For ease of use both the client and the server code are homed together.  
 Not a requirement, just for comfort.
 
+### HINT
+don't forget to add your ECP enable licence key in 
 [Article in DC](https://community.intersystems.com/post/background-jobs-over-ecp)   
 
