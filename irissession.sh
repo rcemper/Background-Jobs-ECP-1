@@ -12,8 +12,7 @@ Do ##class(Security.Users).UnExpireUserPasswords("*")
 ; ZN "IRISAPP"
 ; zpm "install webterminal"
 ZN "USER"
-ZN "USER"
-Do $System.OBJ.LoadDir("/opt/irisapp/user","cuk")
+Do \$System.OBJ.ImportDir("/opt/irisapp/user",,"cuk")
 halt
 EOF
 
