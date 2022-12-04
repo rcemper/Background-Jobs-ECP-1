@@ -9,8 +9,11 @@ if '\$Get(sc) do ##class(%SYSTEM.Process).Terminate(, 1)
 zn "%SYS"
 do ##class(SYS.Container).QuiesceForBundling()
 Do ##class(Security.Users).UnExpireUserPasswords("*")
-ZN "IRISAPP"
-zpm "install webterminal"
+; ZN "IRISAPP"
+; zpm "install webterminal"
+ZN "USER"
+ZN "USER"
+Do $System.OBJ.LoadDir("/opt/irisapp/user","cuk")
 halt
 EOF
 
