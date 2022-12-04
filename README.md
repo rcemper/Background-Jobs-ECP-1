@@ -39,6 +39,7 @@ For ease of use both the client and the server code are homed together.
 Not a requirement, just for comfort.
 
 ### HINT
-don't forget to add your ECP enable licence key in 
+Don't forget to add your ECP enable licence key in ECP_iris.key
+
 [Article in DC](https://community.intersystems.com/post/background-jobs-over-ecp)   
 
