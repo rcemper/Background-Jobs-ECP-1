@@ -1,3 +1,5 @@
+<p align="right"><img src="https://github.com/isc-at/CPIPE/blob/master/archived.jpg"/></p>  
+
 Running a Background Job using JOB command is a well known feature.  
 Using ECP to distribute databases to several servers is also well know.  
 But using the combination of both to run a process on a different server  
