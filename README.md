@@ -1,4 +1,4 @@
-<p align="right"><img src="https://github.com/isc-at/CPIPE/blob/master/archived.jpg"/></p>  
+<img width="135" height="102" alt="image" src="https://github.com/user-attachments/assets/5460be41-1fc0-4feb-a9ef-aca32ed8598e" /> 
 
 Running a Background Job using JOB command is a well known feature.  
 Using ECP to distribute databases to several servers is also well know.  
